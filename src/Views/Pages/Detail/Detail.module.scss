@@ -1,0 +1,126 @@
+audio {
+    width: 100%;
+    background-color: black;
+    padding: 10px;
+    height: 150px;
+    color: #f0f0f0;
+    border-radius: 5px;
+}
+
+audio::-webkit-media-controls-panel {
+    background-color: black;
+    color: #f0f0f0;
+}
+
+audio::-webkit-media-controls-timeline {
+    background-color: #333;
+    /* Màu nền */
+    color: #fff;
+    /* Màu văn bản */
+}
+
+audio::-webkit-media-controls-current-time-display,
+audio::-webkit-media-controls-time-remaining-display {
+    color: #ff0000;
+    z-index: 100;
+    /* Màu văn bản */
+}
+
+/* Đặt màu chữ của nút play/pause thành màu trắng */
+audio::-webkit-media-controls-play-button,
+audio::-webkit-media-controls-pause-button {
+    background-color: #f1f1f1;
+    width: 30px;
+    height: 30px;
+    margin: 0 10px;
+    color: #ffffff;
+    border-radius: 100px;
+    /* Thay đổi màu chữ thành màu trắng */
+}
+
+/* Đặt màu chữ của biểu tượng play/pause thành màu trắng */
+audio::-webkit-media-controls-play-button::before,
+audio::-webkit-media-controls-pause-button::before {
+    content: "";
+    display: block;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #f0f0f0;
+}
+
+/* Đặt màu của timeSliderBuffer thành màu trắng */
+audio::-webkit-media-controls-timeline::-webkit-media-controls-time-slider-buffer-bar {
+    background-color: #fff;
+}
+
+.hover:hover {
+    color: lightblue;
+}
+
+.hover {
+    margin-left: 2px;
+    margin-top: -4px;
+}
+
+/* Width and color of the main scrollbar track */
+.hover::-webkit-scrollbar {
+    width: 12px;
+    /* Width of the scrollbar */
+}
+
+/* Styles for the audio scrollbar */
+audio::-webkit-scrollbar {
+    width: 12px;
+    /* Width of the scrollbar */
+}
+
+audio::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    /* Background color of the scrollbar track */
+}
+
+audio::-webkit-scrollbar-thumb {
+    background: #888;
+    /* Color of the scrollbar thumb (draggable part) */
+}
+
+audio::-webkit-scrollbar-thumb:hover {
+    background: #555;
+    /* Color on hover for the scrollbar thumb */
+}
+
+audio::-webkit-scrollbar-corner {
+    background: #f1f1f1;
+    /* Color of the scrollbar corner (between vertical and horizontal scrollbar) */
+}
+
+audio::-webkit-media-controls-timeline {
+    color: #f0f0f0;
+    // background-color: #f1f1f1;
+}
+
+audio::-webkit-media-controls-progress {
+    background-color: #007bff;
+    /* Màu nền progress bar */
+}
+
+audio::-webkit-media-controls-current-time-display,
+audio::-webkit-media-controls-time-remaining-display {
+    color: #fff;
+    /* Màu văn bản thời gian hiện tại và thời gian còn lại */
+}
+
+audio::-webkit-media-controls-progress {
+    background-color: #ffffff;
+    /* Màu nền trắng */
+}
+
+audio::-webkit-media-controls-title {
+    color: #333;
+}
+
+audio::-webkit-meter-bar {
+    background-color: #f1f1f1;
+}

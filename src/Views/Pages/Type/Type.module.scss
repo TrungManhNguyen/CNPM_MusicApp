@@ -1,0 +1,16 @@
+/* Định dạng hình ảnh và áp dụng hiệu ứng */
+.rotate-image {
+    display: inline-block;
+    animation: rotate 5s linear infinite;
+    /* 5s là thời gian một vòng xoay, bạn có thể điều chỉnh theo ý muốn */
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}

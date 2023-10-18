@@ -1,0 +1,104 @@
+@media only screen and (min-width: 1024px) {
+
+    .container {
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        flex: 1;
+        margin-top: 80px;
+
+        .Sliders {
+            width: 100%;
+            align-items: center;
+            display: flex;
+            flex: 1;
+            justify-content: center;
+        }
+
+        .conten {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+
+            .baihat {
+                display: flex;
+                justify-content: space-between;
+                width: 100%;
+
+            }
+
+            .baihat_test {
+                display: flex;
+                justify-content: space-between;
+                width: 100%;
+
+                div {
+                    padding-left: 3.5px;
+
+                }
+            }
+
+            .MV_hot {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-around;
+            }
+
+            .fake_mvhot {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-around;
+                margin-top: 15px;
+            }
+
+        }
+    }
+}
+
+
+@media only screen and (max-width: 600px) {
+    body {
+        width: 100%;
+
+    }
+
+    .conten {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+
+        .baihat {
+            display: flex;
+            justify-content: space-around;
+            text-align: center;
+            flex-wrap: wrap;
+            width: 98%;
+            margin-left: -20px;
+            margin-top: 10px;
+        }
+
+        .baihat_test {
+            display: flex;
+            justify-content: space-around;
+            text-align: center;
+            flex-wrap: wrap;
+            width: 100%;
+
+            div {
+                // padding-left: 3.5px;
+                margin-top: 10px;
+            }
+        }
+
+        .fake_mvhot {
+            display: flex;
+            justify-content: space-around;
+            text-align: center;
+            flex-wrap: wrap;
+            width: 100%;
+        }
+    }
+
+}

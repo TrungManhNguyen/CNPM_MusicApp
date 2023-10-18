@@ -1,0 +1,50 @@
+audio {
+    width: 100%;
+    background-color: black;
+    padding: 10px;
+    height: 150px;
+    color: #f0f0f0;
+    border-radius: 5px;
+}
+
+audio::-webkit-media-controls-panel {
+    background-color: black;
+    color: #f0f0f0;
+}
+
+/* Đặt màu chữ của nút play/pause thành màu trắng */
+audio::-webkit-media-controls-play-button,
+audio::-webkit-media-controls-pause-button {
+    background-color: #ff5733;
+    width: 30px;
+    height: 30px;
+    margin: 0 10px;
+    color: #ffffff;
+    /* Thay đổi màu chữ thành màu trắng */
+}
+
+/* Đặt màu chữ của biểu tượng play/pause thành màu trắng */
+audio::-webkit-media-controls-play-button::before,
+audio::-webkit-media-controls-pause-button::before {
+    content: "";
+    display: block;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #f0f0f0;
+}
+
+/* Đặt màu của timeSliderBuffer thành màu trắng */
+audio::-webkit-media-controls-timeline::-webkit-media-controls-time-slider-buffer-bar {
+    background-color: #fff;
+}
+
+.hover:hover {
+    color: lightblue;
+}
+
+.hover {
+    margin-left: 2px;
+    margin-top: -4px;
+}
