@@ -1,0 +1,4 @@
+Qua buổi học em đã rút ra được các kinh nghiệm sau:
+1.Sử dụng được các lệnh cơ bản của git , git push , git pull request , branch
+2.Cần có sự phối hợp giữa các thành viên trong nhóm ,tính tự tìm hiểu cao 
+3.Hoàn thành tài liệu và bài tập lớn để chuẩn bị cho thi
